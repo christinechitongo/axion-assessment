@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0114)file:///C:/Users/chris/OneDrive/Desktop/AXION%20AI%20-%20Mini%20AI%20Governance%20Assessment%20-%20NMB%20Bank.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AXION AI - Mini AI Governance Assessment - NMB Bank</title>
-<link href="./AXION AI - Mini AI Governance Assessment - NMB Bank_files/css2" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 :root{
@@ -204,10 +204,10 @@ body{font-family:'DM Sans',sans-serif;background:var(--parchment);color:var(--gr
       <div class="card" style="padding:1.25rem;"><div style="font-size:1.4rem;margin-bottom:.5rem;">💬</div><div style="font-weight:600;font-size:.9rem;color:var(--navy);margin-bottom:.3rem;">Discuss as a team</div><div style="font-size:.8rem;color:var(--gray-mid);">One question per dimension. Talk through it honestly before scoring.</div></div>
       <div class="card" style="padding:1.25rem;"><div style="font-size:1.4rem;margin-bottom:.5rem;">☑️</div><div style="font-weight:600;font-size:.9rem;color:var(--navy);margin-bottom:.3rem;">Score 0 to 3</div><div style="font-size:.8rem;color:var(--gray-mid);">0 = Not in place. 1 = Partial. 2 = Mostly. 3 = Fully in place.</div></div>
       <div class="card" style="padding:1.25rem;"><div style="font-size:1.4rem;margin-bottom:.5rem;">📊</div><div style="font-weight:600;font-size:.9rem;color:var(--navy);margin-bottom:.3rem;">Instant results</div><div style="font-size:.8rem;color:var(--gray-mid);">Your maturity level, top gaps, and recommended next steps - generated immediately.</div></div>
-      <div class="card" style="padding:1.25rem;"><div style="font-size:1.4rem;margin-bottom:.5rem;">🖨</div><div style="font-weight:600;font-size:.9rem;color:var(--navy);margin-bottom:.3rem;">Print &amp; share</div><div style="font-size:.8rem;color:var(--gray-mid);">Print the findings summary directly from your browser for the board pack.</div></div>
+      <div class="card" style="padding:1.25rem;"><div style="font-size:1.4rem;margin-bottom:.5rem;">🖨</div><div style="font-weight:600;font-size:.9rem;color:var(--navy);margin-bottom:.3rem;">Print & share</div><div style="font-size:.8rem;color:var(--gray-mid);">Print the findings summary directly from your browser for the board pack.</div></div>
     </div>
     <div style="text-align:center;">
-      <button class="btn btn-gold btn-lg" onclick="goTo(&#39;page-org&#39;)">Begin Assessment →</button>
+      <button class="btn btn-gold btn-lg" onclick="goTo('page-org')">Begin Assessment →</button>
     </div>
   </div>
 </div>
@@ -229,303 +229,18 @@ body{font-family:'DM Sans',sans-serif;background:var(--parchment);color:var(--gr
       </div>
     </div>
     <div class="nav-bar">
-      <button class="btn-back" onclick="goTo(&#39;page-landing&#39;)">← Back</button>
-      <button class="btn-next" onclick="goTo(&#39;page-q0&#39;)">Start Assessment →</button>
+      <button class="btn-back" onclick="goTo('page-landing')">← Back</button>
+      <button class="btn-next" onclick="goTo('page-q0')">Start Assessment →</button>
     </div>
   </div>
 </div>
 
 <!-- QUESTIONS (pages 2-6) -->
-<div class="page" id="page-q0">
-      <div class="container">
-        <div class="sec-head">
-          <div class="eyebrow">Step 2 of 7 - Dimension 1 of 5</div>
-          <h2>Policy &amp; Leadership</h2>
-        </div>
-        <div class="q-card">
-          <div class="q-card-header" style="background:#EEEDFE30;border-bottom:1px solid #EEEDFE;">
-            <div class="q-dim-badge" style="background:#EEEDFE;color:#534AB7;">D1</div>
-            <div>
-              <div class="q-dim-title" style="color:#534AB7;">Policy &amp; Leadership</div>
-            </div>
-          </div>
-          <div class="q-body">
-            <div class="q-text">If a shareholder asked your Board today who is accountable for AI decisions at this bank - and what your AI policy says - could you give a clear, documented answer?</div>
-            <div class="q-why">Why this matters: Without a named owner and a documented policy, AI governance has no foundation. For a ZSE-listed bank this is a fiduciary gap.</div>
-            <div class="q-prompts">
-              <div class="q-prompt-label">Discussion prompts</div>
-              <div class="q-prompt">→  Does a board-approved AI policy exist?</div><div class="q-prompt">→  Is accountability for AI decisions named and documented?</div><div class="q-prompt">→  Has the Board received an AI governance briefing in the last 12 months?</div>
-            </div>
-            <div class="score-row">
-              
-                <button class="score-btn " onclick="score(&#39;d1&#39;,0,&#39;page-q0&#39;)">
-                  <strong>0</strong><br>Not in place
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d1&#39;,1,&#39;page-q0&#39;)">
-                  <strong>1</strong><br>Partial
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d1&#39;,2,&#39;page-q0&#39;)">
-                  <strong>2</strong><br>Mostly in place
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d1&#39;,3,&#39;page-q0&#39;)">
-                  <strong>3</strong><br>Fully in place
-                </button>
-              
-            </div>
-            <div class="obs-row">
-              <label>Key observation from the discussion</label>
-              <textarea id="obs-d1" placeholder="Record the key point that emerged from your discussion..." onchange="recordObs(&#39;d1&#39;)"></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="nav-bar">
-          <button class="btn-back" onclick="goTo(&#39;page-org&#39;)">← Back</button>
-          <div>
-            <div style="font-size:.72rem;color:var(--gray-mid);text-align:right;margin-bottom:6px;">
-              Score this dimension to continue
-            </div>
-            <button class="btn-next" disabled="" onclick="goTo(&#39;page-q1&#39;);">
-              Next →
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-<div class="page" id="page-q1">
-      <div class="container">
-        <div class="sec-head">
-          <div class="eyebrow">Step 3 of 7 - Dimension 2 of 5</div>
-          <h2>Risk Management</h2>
-        </div>
-        <div class="q-card">
-          <div class="q-card-header" style="background:#E1F5EE30;border-bottom:1px solid #E1F5EE;">
-            <div class="q-dim-badge" style="background:#E1F5EE;color:#1D9E75;">D2</div>
-            <div>
-              <div class="q-dim-title" style="color:#1D9E75;">Risk Management</div>
-            </div>
-          </div>
-          <div class="q-body">
-            <div class="q-text">Before the bank's most recent AI system or AI-powered vendor platform went live - was a structured risk assessment completed, covering bias, data quality, and regulatory compliance?</div>
-            <div class="q-why">Why this matters: Banks using AI credit or fraud tools without bias assessment carry unquantified regulatory and reputational risk.</div>
-            <div class="q-prompts">
-              <div class="q-prompt-label">Discussion prompts</div>
-              <div class="q-prompt">→  Was a risk assessment completed and documented before deployment?</div><div class="q-prompt">→  Is there a register of all AI systems in use - including vendor-embedded AI?</div><div class="q-prompt">→  Are high-risk AI applications subject to more rigorous governance than low-risk ones?</div>
-            </div>
-            <div class="score-row">
-              
-                <button class="score-btn " onclick="score(&#39;d2&#39;,0,&#39;page-q1&#39;)">
-                  <strong>0</strong><br>Not in place
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d2&#39;,1,&#39;page-q1&#39;)">
-                  <strong>1</strong><br>Partial
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d2&#39;,2,&#39;page-q1&#39;)">
-                  <strong>2</strong><br>Mostly in place
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d2&#39;,3,&#39;page-q1&#39;)">
-                  <strong>3</strong><br>Fully in place
-                </button>
-              
-            </div>
-            <div class="obs-row">
-              <label>Key observation from the discussion</label>
-              <textarea id="obs-d2" placeholder="Record the key point that emerged from your discussion..." onchange="recordObs(&#39;d2&#39;)"></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="nav-bar">
-          <button class="btn-back" onclick="goTo(&#39;page-q0&#39;)">← Back</button>
-          <div>
-            <div style="font-size:.72rem;color:var(--gray-mid);text-align:right;margin-bottom:6px;">
-              Score this dimension to continue
-            </div>
-            <button class="btn-next" disabled="" onclick="goTo(&#39;page-q2&#39;);">
-              Next →
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-<div class="page" id="page-q2">
-      <div class="container">
-        <div class="sec-head">
-          <div class="eyebrow">Step 4 of 7 - Dimension 3 of 5</div>
-          <h2>Operations &amp; Controls</h2>
-        </div>
-        <div class="q-card">
-          <div class="q-card-header" style="background:#E6F1FB30;border-bottom:1px solid #E6F1FB;">
-            <div class="q-dim-badge" style="background:#E6F1FB;color:#185FA5;">D3</div>
-            <div>
-              <div class="q-dim-title" style="color:#185FA5;">Operations &amp; Controls</div>
-            </div>
-          </div>
-          <div class="q-body">
-            <div class="q-text">Do the bank's contracts with AI vendors require them to disclose model changes, notify the bank of incidents, and submit to audit - and does someone at the bank actively monitor AI outputs after deployment?</div>
-            <div class="q-why">Why this matters: Most AI exposure in banks comes from third-party vendors. Without contractual accountability and monitoring, the bank carries the risk.</div>
-            <div class="q-prompts">
-              <div class="q-prompt-label">Discussion prompts</div>
-              <div class="q-prompt">→  Are vendor AI contracts reviewed for governance provisions?</div><div class="q-prompt">→  Who monitors AI system performance post-deployment - and how often?</div><div class="q-prompt">→  Is there a current register of all third-party AI platforms in use?</div>
-            </div>
-            <div class="score-row">
-              
-                <button class="score-btn " onclick="score(&#39;d3&#39;,0,&#39;page-q2&#39;)">
-                  <strong>0</strong><br>Not in place
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d3&#39;,1,&#39;page-q2&#39;)">
-                  <strong>1</strong><br>Partial
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d3&#39;,2,&#39;page-q2&#39;)">
-                  <strong>2</strong><br>Mostly in place
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d3&#39;,3,&#39;page-q2&#39;)">
-                  <strong>3</strong><br>Fully in place
-                </button>
-              
-            </div>
-            <div class="obs-row">
-              <label>Key observation from the discussion</label>
-              <textarea id="obs-d3" placeholder="Record the key point that emerged from your discussion..." onchange="recordObs(&#39;d3&#39;)"></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="nav-bar">
-          <button class="btn-back" onclick="goTo(&#39;page-q1&#39;)">← Back</button>
-          <div>
-            <div style="font-size:.72rem;color:var(--gray-mid);text-align:right;margin-bottom:6px;">
-              Score this dimension to continue
-            </div>
-            <button class="btn-next" disabled="" onclick="goTo(&#39;page-q3&#39;);">
-              Next →
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-<div class="page" id="page-q3">
-      <div class="container">
-        <div class="sec-head">
-          <div class="eyebrow">Step 5 of 7 - Dimension 4 of 5</div>
-          <h2>People &amp; Culture</h2>
-        </div>
-        <div class="q-card">
-          <div class="q-card-header" style="background:#FAEEDA30;border-bottom:1px solid #FAEEDA;">
-            <div class="q-dim-badge" style="background:#FAEEDA;color:#BA7517;">D4</div>
-            <div>
-              <div class="q-dim-title" style="color:#BA7517;">People &amp; Culture</div>
-            </div>
-          </div>
-          <div class="q-body">
-            <div class="q-text">Do customers know when AI influences a decision about them - and do staff know how to raise a concern if an AI system produces an unexpected or unfair outcome?</div>
-            <div class="q-why">Why this matters: Transparency and grievance mechanisms are legal obligations under Zimbabwean law - not optional.</div>
-            <div class="q-prompts">
-              <div class="q-prompt-label">Discussion prompts</div>
-              <div class="q-prompt">→  Is AI use disclosed to customers in credit or service decisions?</div><div class="q-prompt">→  Is there a clear internal channel for staff to raise AI concerns without reprisal?</div><div class="q-prompt">→  Are staff trained on the AI tools they use - including their limitations?</div>
-            </div>
-            <div class="score-row">
-              
-                <button class="score-btn " onclick="score(&#39;d4&#39;,0,&#39;page-q3&#39;)">
-                  <strong>0</strong><br>Not in place
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d4&#39;,1,&#39;page-q3&#39;)">
-                  <strong>1</strong><br>Partial
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d4&#39;,2,&#39;page-q3&#39;)">
-                  <strong>2</strong><br>Mostly in place
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d4&#39;,3,&#39;page-q3&#39;)">
-                  <strong>3</strong><br>Fully in place
-                </button>
-              
-            </div>
-            <div class="obs-row">
-              <label>Key observation from the discussion</label>
-              <textarea id="obs-d4" placeholder="Record the key point that emerged from your discussion..." onchange="recordObs(&#39;d4&#39;)"></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="nav-bar">
-          <button class="btn-back" onclick="goTo(&#39;page-q2&#39;)">← Back</button>
-          <div>
-            <div style="font-size:.72rem;color:var(--gray-mid);text-align:right;margin-bottom:6px;">
-              Score this dimension to continue
-            </div>
-            <button class="btn-next" disabled="" onclick="goTo(&#39;page-q4&#39;);">
-              Next →
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-<div class="page" id="page-q4">
-      <div class="container">
-        <div class="sec-head">
-          <div class="eyebrow">Step 6 of 7 - Dimension 5 of 5</div>
-          <h2>Audit &amp; Improvement</h2>
-        </div>
-        <div class="q-card">
-          <div class="q-card-header" style="background:#F1EFE830;border-bottom:1px solid #F1EFE8;">
-            <div class="q-dim-badge" style="background:#F1EFE8;color:#444441;">D5</div>
-            <div>
-              <div class="q-dim-title" style="color:#444441;">Audit &amp; Improvement</div>
-            </div>
-          </div>
-          <div class="q-body">
-            <div class="q-text">Has the bank's internal audit function ever reviewed an AI system - and does the Audit &amp; Risk Committee receive any reporting on AI governance matters?</div>
-            <div class="q-why">Why this matters: Governance that cannot be independently verified cannot be defended to regulators or shareholders.</div>
-            <div class="q-prompts">
-              <div class="q-prompt-label">Discussion prompts</div>
-              <div class="q-prompt">→  Is AI governance within internal audit's current scope?</div><div class="q-prompt">→  When did the Board or Audit Committee last discuss AI risk?</div><div class="q-prompt">→  Is there a process to improve governance after incidents or regulatory changes?</div>
-            </div>
-            <div class="score-row">
-              
-                <button class="score-btn " onclick="score(&#39;d5&#39;,0,&#39;page-q4&#39;)">
-                  <strong>0</strong><br>Not in place
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d5&#39;,1,&#39;page-q4&#39;)">
-                  <strong>1</strong><br>Partial
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d5&#39;,2,&#39;page-q4&#39;)">
-                  <strong>2</strong><br>Mostly in place
-                </button>
-              
-                <button class="score-btn " onclick="score(&#39;d5&#39;,3,&#39;page-q4&#39;)">
-                  <strong>3</strong><br>Fully in place
-                </button>
-              
-            </div>
-            <div class="obs-row">
-              <label>Key observation from the discussion</label>
-              <textarea id="obs-d5" placeholder="Record the key point that emerged from your discussion..." onchange="recordObs(&#39;d5&#39;)"></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="nav-bar">
-          <button class="btn-back" onclick="goTo(&#39;page-q3&#39;)">← Back</button>
-          <div>
-            <div style="font-size:.72rem;color:var(--gray-mid);text-align:right;margin-bottom:6px;">
-              Score this dimension to continue
-            </div>
-            <button class="btn-next" disabled="" onclick="goTo(&#39;page-results&#39;);buildResults();">
-              See Results →
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="page" id="page-q0"></div>
+<div class="page" id="page-q1"></div>
+<div class="page" id="page-q2"></div>
+<div class="page" id="page-q3"></div>
+<div class="page" id="page-q4"></div>
 
 <!-- RESULTS -->
 <div class="page" id="page-results">
@@ -811,15 +526,89 @@ function buildResults() {
     </div>
   `;
 
-  // Next steps
-  const nextSteps = [
-    {label:'Urgent',      cls:'background:#FCEBEB;color:#A32D2D;', text:'Full AI Governance Readiness Assessment - establish a complete, auditable baseline', show: overallPct<50},
-    {label:'Priority',    cls:'background:#FAEEDA;color:#BA7517;', text:'AI Governance Framework - board-approved policy, RACI, and risk management structure', show: dimResults.find(d=>d.id==='d1')?.score<2},
-    {label:'Priority',    cls:'background:#FAEEDA;color:#BA7517;', text:'AI Risk Management Framework - structured risk assessment and vendor governance process', show: dimResults.find(d=>d.id==='d2')?.score<2||dimResults.find(d=>d.id==='d3')?.score<2},
-    {label:'Recommended', cls:'background:#E6F1FB;color:#185FA5;', text:'Board & Audit Committee AI Governance Training - director obligations and risk oversight', show: dimResults.find(d=>d.id==='d4')?.score<3||dimResults.find(d=>d.id==='d5')?.score<3},
-    {label:'Recommended', cls:'background:#E6F1FB;color:#185FA5;', text:'AI Governance Certification Readiness Programme - prepare your organisation for formal certification', show: overallPct>=50},
-    {label:'Recommended', cls:'background:#E1F5EE;color:#085041;', text:'Retained AI Governance Advisory - ongoing quarterly reviews, board reporting, and framework updates', show: overallPct>=50},
-  ].filter(n=>n.show);
+  // Next steps — comprehensive conditional logic
+  const d1 = dimResults.find(d=>d.id==='d1')?.score ?? 0;
+  const d2 = dimResults.find(d=>d.id==='d2')?.score ?? 0;
+  const d3 = dimResults.find(d=>d.id==='d3')?.score ?? 0;
+  const d4 = dimResults.find(d=>d.id==='d4')?.score ?? 0;
+  const d5 = dimResults.find(d=>d.id==='d5')?.score ?? 0;
+
+  const allNextSteps = [
+    // ── URGENT ──────────────────────────────────────────────────
+    { label:'Urgent', cls:'background:#FCEBEB;color:#A32D2D;',
+      text:'Full AI Governance Readiness Assessment - establish a complete, auditable governance baseline before any further AI deployment',
+      show: overallPct < 50 },
+
+    { label:'Urgent', cls:'background:#FCEBEB;color:#A32D2D;',
+      text:'AI Governance Framework - your organisation has no documented AI policy or named accountability owner. This is the highest-priority gap for a regulated institution.',
+      show: d1 === 0 },
+
+    { label:'Urgent', cls:'background:#FCEBEB;color:#A32D2D;',
+      text:'AI Risk Management Framework - no structured risk assessment process exists before AI systems are deployed. Material regulatory and operational risk is unmanaged.',
+      show: d2 === 0 || d3 === 0 },
+
+    { label:'Urgent', cls:'background:#FCEBEB;color:#A32D2D;',
+      text:'AI Ethics & Acceptable Use Policy - no staff training, customer transparency, or grievance mechanism exists. This is a legal obligation under Zimbabwean law.',
+      show: d4 === 0 },
+
+    // ── PRIORITY ─────────────────────────────────────────────────
+    { label:'Priority', cls:'background:#FAEEDA;color:#BA7517;',
+      text:'AI Governance Framework - a policy and accountability structure exists partially but is not documented or board-approved. Formalise ownership and policy before the next board cycle.',
+      show: d1 === 1 },
+
+    { label:'Priority', cls:'background:#FAEEDA;color:#BA7517;',
+      text:'AI Risk Management Framework - risk assessment practices are partial or inconsistent. Structured risk classification and vendor governance processes are needed.',
+      show: (d2 === 1 || d3 === 1) && d2 !== 0 && d3 !== 0 },
+
+    { label:'Priority', cls:'background:#FAEEDA;color:#BA7517;',
+      text:'AI Ethics & Acceptable Use Policy - staff training and customer transparency practices are partial. Formalise disclosure obligations and internal concern-raising channels.',
+      show: d4 === 1 },
+
+    { label:'Priority', cls:'background:#FAEEDA;color:#BA7517;',
+      text:'Internal audit scope extension - AI governance is not within your audit committee\'s mandate. This is a governance gap that external auditors and regulators will identify.',
+      show: d5 <= 1 },
+
+    { label:'Priority', cls:'background:#FAEEDA;color:#BA7517;',
+      text:'Full AI Governance Readiness Assessment - a formal baseline assessment is recommended before pursuing certification or a retained advisory programme.',
+      show: overallPct >= 50 && overallPct < 75 },
+
+    // ── RECOMMENDED ──────────────────────────────────────────────
+    { label:'Recommended', cls:'background:#E6F1FB;color:#185FA5;',
+      text:'Board & Audit Committee AI Governance Training - structured training on director AI oversight obligations, risk reporting, and governance accountability.',
+      show: d5 === 0 || d5 === 1 || d5 === 2 },
+
+    { label:'Recommended', cls:'background:#E6F1FB;color:#185FA5;',
+      text:'AI Governance Certification Readiness Programme - prepare your organisation for formal AI governance certification by an accredited independent body.',
+      show: overallPct >= 50 },
+
+    { label:'Recommended', cls:'background:#E1F5EE;color:#085041;',
+      text:'Retained AI Governance Advisory - ongoing quarterly reviews, annual framework updates, board reporting support, and unlimited advisory queries.',
+      show: overallPct >= 25 },
+
+    { label:'Recommended', cls:'background:#E1F5EE;color:#085041;',
+      text:'Annual AI Governance Audit - independent verification of your governance posture to confirm that practices meet the standards your board has approved.',
+      show: d5 === 3 && overallPct >= 75 },
+
+    { label:'Recommended', cls:'background:#E1F5EE;color:#085041;',
+      text:'Publish an AI Governance Statement - demonstrate to shareholders, regulators, and clients that your organisation leads on AI accountability in the sector.',
+      show: overallPct === 100 },
+  ];
+
+  // Rule 1: Count urgent items
+  const urgentItems = allNextSteps.filter(n=>n.show && n.label==='Urgent');
+  const urgentCount = urgentItems.length;
+
+  // Rule 2: If 3+ urgent items, suppress Recommended entirely
+  // Rule 3: Never show more than 5 total
+  // Rule 4: Perfect score — suppress all gap items, show only certification/advisory
+  let nextSteps;
+  if (overallPct === 100) {
+    nextSteps = allNextSteps.filter(n=>n.show && n.label==='Recommended').slice(0,3);
+  } else if (urgentCount >= 3) {
+    nextSteps = allNextSteps.filter(n=>n.show && (n.label==='Urgent'||n.label==='Priority')).slice(0,5);
+  } else {
+    nextSteps = allNextSteps.filter(n=>n.show).slice(0,5);
+  }
 
   document.getElementById('res-next').innerHTML=`
     <h4>Recommended next steps for ${org}</h4>
@@ -838,6 +627,5 @@ function buildResults() {
 // ── INIT ──────────────────────────────────────────────────────────
 buildQuestionPages();
 </script>
-
-
-</body></html>
+</body>
+</html>
